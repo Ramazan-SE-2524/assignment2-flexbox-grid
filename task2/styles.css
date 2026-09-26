@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2933;
+}
+
+.page-grid {
+  display: grid;
+
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+.site-header {
+  grid-area: header;
+  background: #1f2933;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #f0f4f8;
+  padding: 1.5rem;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 1.5rem 2rem;
+  max-width: 600px;
+}
+.site-footer {
+  grid-area: footer;
+  background: #1f2933;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
