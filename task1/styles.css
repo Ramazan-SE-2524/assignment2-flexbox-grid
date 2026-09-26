@@ -15,11 +15,16 @@ body {
 
 .page-content h1 {
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .section-lead {
   color: #52606d;
   margin-bottom: 1.5rem;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2933;
 }
 
 .card-row {
