@@ -23,3 +23,44 @@ body {
   padding: 1rem 2rem;
   background: #111827;
 }
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-list a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  color: #7dd3fc;
+}
+
+.page-content {
+  padding: 3rem 2rem;
+}
+.page-content h1 {
+  margin-bottom: 0.5rem;
+}
+
+.section-lead {
+  color: #94a3b8;
+  max-width: 500px;
+}
+
+.site-footer {
+  background: #111827;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1rem 2rem;
+}
